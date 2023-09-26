@@ -19,6 +19,7 @@ function funcao(){
     console.log("oioioi oioioi")
 }
 
-function alterar_texto(){
+function alterar_texto(e){
     document.querySelector('h1').textContent = "Novo título"
+    console.log(e.target)
 }
